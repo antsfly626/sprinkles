@@ -1,0 +1,73 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  margin-top: 40px;
+  background-color: #7a3a00;
+  font-family: monospace;
+}
+
+img{
+  padding: 40px;
+}
+
+  .carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+h5, p {
+  text-align: right;
+  color: #ffffff;
+  text-shadow: 0 0 10px #7a3901;
+  font-family: monospace;
+}
+
+.jumbotron {
+    background-color: #f4511e;
+    color: #fff;
+    padding: 100px 25px;
+  }
+  .container-fluid {
+    padding: 60px 50px;
+  }
+  .bg-grey {
+    background-color: #f6f6f6;
+  }
+  .logo-small {
+    color: #f4511e;
+    font-size: 50px;
+  }
+  .logo {
+    color: #f4511e;
+    font-size: 200px;
+  }
+  @media screen and (max-width: 768px) {
+    .col-sm-4 {
+      text-align: center;
+      margin: 25px 0;
+    }
+  }
+h2, h4, h6 {
+  margin-left:80px;
+  font-family: monospace;
+}
+
+table {
+  background-color: #fbeede;
+  text-align: center;
+  font-family: monospace;
+}
+
+#rainbow {
+  text-shadow: -4px 4px #ef3550,
+               -8px 8px #f48fb1,
+               -12px 12px #7e57c2,
+               -16px 16px #2196f3,
+               -20px 20px #26c6da,
+               -24px 24px #43a047,
+               -28px 28px #eeff41,
+               -32px 32px #f9a825,
+               -36px 36px #ff5722;
+  padding-bottom: 60px;
+  font-size: 75px
+}
